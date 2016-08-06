@@ -1,2 +1,2 @@
-#Auth-Example
-Auth-Example is a passport-local implementation with session management, user registration and user login. It uses MongoDB with mongoose.
+#Bookmarks
+Bookmarks is a bookmarking app where users can add, update, remove and search their bookmarks. Built with passport and mongoose.
