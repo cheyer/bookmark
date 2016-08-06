@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Hello <%= user.name%></h1>
+    <p>Your account:</p>
+    <p><strong>id</strong>: <%= user._id%></p>
+    <p><strong>name</strong>: <%= user.name%></p>
+    <p><strong>surname</strong>: <%= user.surname%></p>
+    <p><strong>email</strong>: <%= user.email%></p>
+    <p><strong>password</strong>: <%= user.password%></p>
+    <hr>
+    <p>To go home click <a href="/">here</a>.</p>
+    <p>Or <a href="/logout">logout</a>.</p>
+  </body>
+</html>

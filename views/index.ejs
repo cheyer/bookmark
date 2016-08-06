@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Hi <%= user.name%></h1>
+    <h3>Create a new bookmark</h3>
+    <form action="/bookmark/add" method="post">
+      <input type="text" placeholder="URL" name="URL">
+      <input type="text" placeholder="Name" name="name">
+      <input type="text" placeholder="Tags" name="tags">
+      <input type="submit" value="SAVE">
+    </form>
+    <hr>
+    <p>You can look up your profile <a href="/user/profile">here</a>.</p>
+    <p>To logout click <a href="/logout">here</a>.</p>
+  </body>
+</html>

@@ -1,2 +1,2 @@
-# Bookmark
-This is a simple application for saving and finding your bookmarks by tagging them.
+#Auth-Example
+Auth-Example is a passport-local implementation with session management, user registration and user login. It uses MongoDB with mongoose.
